@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ContactApp.ContactDetailPage"
+             Title="ContactDetailPage"
+             Padding="20">
+    <VerticalStackLayout>
+        <Label 
+            Text="Update your contact"
+            FontSize="20"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Button Grid.ColumnSpan="1" Text="Back" Clicked="OnBackClicked" Margin="0,0,0,0" />
+    </VerticalStackLayout>
+</ContentPage>
